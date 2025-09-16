@@ -15,7 +15,7 @@ with sync_playwright() as playwright:
     page.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/auth/login")
     page.on('request', log_request)
     page.on('response', log_response)
-    page.
+
 
     # Задержка для наглядности выполнения теста (не рекомендуется использовать в реальных автотестах)
     page.wait_for_timeout(5000)
