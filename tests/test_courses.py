@@ -1,6 +1,6 @@
 from playwright.sync_api import  expect
 
-def test_empty_courses_list_new(chromium_page_with_state):
+def test_empty_courses_list(chromium_page_with_state):
 
         chromium_page_with_state.goto("https://nikita-filonov.github.io/qa-automation-engineer-ui-course/#/courses")
 
